@@ -2,7 +2,7 @@
 
 ## **Objective:**
 Build 2 binary classification models to predict 1) a match in a round of speed dating
-and 2) a date after a speed dating event
+and 2) a date after a speed dating event.
 
 ## **Approach:**
 Speed dating data is cleaned and aggregated into two data frames to build two separate classification models. The first model predicts whether a round of speed dating will end in a match. The features used in this model were related to how participants scored their dates based on characteristics like attractiveness, intelligence, and ambition. A feature was engineered that measured how in-sync the date was by finding the absolute value of the sum of the differences in how a participant rated their date and how the date rated the participant on each characteristic.  The second model predicts whether a match in a speed dating round results in a date after the speed dating event. The features used in this model were related to how each participant rated their interests in various categories, how much they go out (in general and on dates), and how they view themselves. Numerous features were engineered in order to categorize each activity.
@@ -16,6 +16,7 @@ Speed dating data is cleaned and aggregated into two data frames to build two se
 - Decision Trees
 - K-Nearest Neighbors
 - SVM
+- Class imbalance
 
 ## **Data:**
 This [dataset](https://www.kaggle.com/annavictoria/speed-dating-experiment) was obtained from Kaggle.
